@@ -6,25 +6,23 @@
 	<title>IDIOT</title>
 	<script>
 		function change(){
-			var image = document.getElementById('test1');
-			image.src = "./images/shuckle.png"
-			var image2 = document.getElementById('test2');
-			image2.src = "./images/lupa.png"
-			var image = document.getElementById('test1');
-			image.src = "./images/shuckle.png"
-			var image = document.getElementById('test1');
-			image.src = "./images/shuckle.png"
-			var image = document.getElementById('test1');
-			image.src = "./images/shuckle.png"
-			var image = document.getElementById('test1');
-			image.src = "./images/shuckle.png"
+        var images = [
+                    "asd",
+                    "lupa",
+                    "shuckle"
+                   ];
+			for (var loop = 0; loop < 2; loop++) {
+            var str = "test" + loop;
+			var image = document.getElementById(str);
+			image.src = "./images/" + images[loop] + ".png";
+			}
 		}
 	</script>
 </head>
 <body>
 
+<img id="test0" src="./images/asd.png" alt="sss">
 <img id="test1" src="./images/asd.png" alt="sss">
-<img id="test2" src="./images/asd.png" alt="sss">
 
 <button onclick="change();">change</button>
 
