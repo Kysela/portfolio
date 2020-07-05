@@ -119,9 +119,16 @@ nav {
 }
 
 div img {
+	opacity: 50%;
 	border-radius: 50%;
 	border: 1px black solid;
 }
+
+div img:hover {
+	opacity: 100%;
+
+}
+
 
 
 
