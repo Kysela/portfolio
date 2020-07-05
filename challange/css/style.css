@@ -28,6 +28,7 @@ nav {
 	min-height: 8vh;
 	background-color: #5d4954;
 	font-family: 'Poppins', sans-serif;
+	width: 100%;
 }
 
 .logo{
@@ -126,8 +127,9 @@ div img {
 
 div img:hover {
 	opacity: 100%;
-
 }
+
+
 
 
 
