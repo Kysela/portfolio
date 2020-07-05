@@ -28,6 +28,7 @@ nav {
 	min-height: 8vh;
 	background-color: #5d4954;
 	font-family: 'Poppins', sans-serif;
+	width: 100%;
 }
 
 .logo{
@@ -119,9 +120,17 @@ nav {
 }
 
 div img {
+	opacity: 50%;
 	border-radius: 50%;
 	border: 1px black solid;
 }
+
+div img:hover {
+	opacity: 100%;
+}
+
+
+
 
 
 
