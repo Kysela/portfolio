@@ -11,3 +11,9 @@
 			}
 		}	
 
+	function changeLink() {
+    var link = document.getElementById("link0");   
+    link.setAttribute('href', "https://www.youtube.com");
+    return false;
+}
+
