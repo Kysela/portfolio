@@ -4,27 +4,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>IDIOT</title>
-	<script>
-		function change(){
-        var images = [
-                    "asd",
-                    "lupa",
-                    "shuckle"
-                   ];
-			for (var loop = 0; loop < 2; loop++) {
-            var str = "test" + loop;
-			var image = document.getElementById(str);
-			image.src = "./images/" + images[loop] + ".png";
-			}
-		}
-	</script>
+	<script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
 
 <img id="test0" src="./images/asd.png" alt="sss">
 <img id="test1" src="./images/asd.png" alt="sss">
-
-<button onclick="change();">change</button>
-
+<button onclick="'<script>change();</script>'">change</button>
 </body>
 </html>
